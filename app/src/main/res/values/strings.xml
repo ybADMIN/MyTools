@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExchangeViewLocation</string>
+    <string name="main_menu_about_me">关于我们</string>
+    <string name="main_menu_my_home">我的爱家</string>
+    <string name="main_menu_product_center">产品中心</string>
+    <string name="main_menu_contact_us">联系我们</string>
+    <string name="main_menu_newest_activity">最新活动</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_view_header_image">ListViewHeaderImage</string>
+    <string name="title_activity_pull_to_zoom">PullToZoomActivity</string>
+    <string name="title_activity_pull_to_zoom_activity2">PullToZoomActivity2</string>
+</resources>

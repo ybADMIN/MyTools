@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <!--主页菜单字体大小、颜色-->
+    <style name="main_menu_text">
+        <item name="android:textColor">@color/red_a02b38</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

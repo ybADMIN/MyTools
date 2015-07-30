@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/yb/com/exchangeviewlocation/deamo/ui/ListviewHeaderImage.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/yb/com/exchangeviewlocation/utils/ExchangeAnimation.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/yb/com/exchangeviewlocation/utils/Logger.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/contact_us.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/about_me.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/contact_us.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/my_home.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/newest_activity.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/product_center.png" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

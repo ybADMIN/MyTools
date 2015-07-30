@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="comm_white">#FFFFFF</color>
+    <color name="comm_black">#000000</color>
+    <color name="comm_black_880000">#88000000</color>
+    <color name="common_gray_c3">#C3C3C3</color>
+    <color name="common_gray_text">#696969</color>
+    <color name="common_red">#FF0000</color>
+    <color name="common_red_F65B5F">#F65B5F</color>
+    <color name="red_a02b38">#A02B38</color>
+    <color name="gray_cacaca">#CACACA</color>
+    <color name="gray_444444">#444444</color>
+    <color name="common_red_ED1A3B">#ED1A3B</color>
+    <color name="bule" >#882288bb</color>
+</resources>
