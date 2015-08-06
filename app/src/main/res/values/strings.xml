@@ -10,4 +10,10 @@
     <string name="title_activity_list_view_header_image">ListViewHeaderImage</string>
     <string name="title_activity_pull_to_zoom">PullToZoomActivity</string>
     <string name="title_activity_pull_to_zoom_activity2">PullToZoomActivity2</string>
+    <!--toolbar-->
+    <string name="img_edit_del">删除</string>
+    <string name="img_edit_title">预览</string>
+    <string name="back">返回</string>
+    <string name="title_activity_see_image">seeImage</string>
+    <string name="title_activity_custom_album_edit_photo">CustomAlbumEditPhotoActivity</string>
 </resources>

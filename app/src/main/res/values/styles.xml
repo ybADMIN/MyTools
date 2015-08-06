@@ -9,4 +9,9 @@
         <item name="android:textColor">@color/red_a02b38</item>
         <item name="android:textSize">16sp</item>
     </style>
+    <!-- 自定义相册Checkbox -->
+    <style name="common_checkBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/common_album_ckbox_item_selector</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
 </resources>

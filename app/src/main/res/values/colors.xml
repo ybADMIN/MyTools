@@ -12,4 +12,18 @@
     <color name="gray_444444">#444444</color>
     <color name="common_red_ED1A3B">#ED1A3B</color>
     <color name="bule" >#882288bb</color>
+    <!--Toolbar-->
+    <color name="u_common_black_282828">#282828</color>
+    <color name="u_common_black_515151">#515151</color>
+    <color name="common_grey_light_txt">#969696</color>
+    <color name="common_white">#FFFFFF</color>
+    <color name="common_grey_text">#4a4a4a</color>
+    <color name="common_grey_back">#F0F0F0</color>
+    <color name="u_common_blue">#01aee6</color>
+    <color name="common_backcolor">#f0f0f0 </color>
+    <color name="u_common_blue_light">#00b9f2</color>
+    <color name="common_transparent">@android:color/transparent</color>
+    <!--更换皮肤-->
+    <color name="yellow">#fff0f000</color>
+    <color name="red">#ffff0000</color>
 </resources>

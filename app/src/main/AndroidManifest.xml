@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="yb.com.exchangeviewlocation" >
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,16 +20,33 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".deamo.ListViewHeaderImageActivity"
+            android:name=".deamo.pullview.ListViewHeaderImageActivity"
             android:label="@string/title_activity_list_view_header_image" >
         </activity>
         <activity
-            android:name=".deamo.PullToZoomActivity"
+            android:name=".deamo.pullview.PullToZoomActivity"
             android:label="@string/title_activity_pull_to_zoom" >
         </activity>
         <activity
-            android:name=".deamo.PullToZoomActivity2"
+            android:name=".deamo.pullview.PullToZoomActivity2"
             android:label="@string/title_activity_pull_to_zoom_activity2" >
+        </activity>
+        <activity
+            android:name=".deamo.Toolbar.About_US_framentActivity"
+            />
+        <activity
+            android:name=".deamo.yb_crustomalbum.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".deamo.yb_crustomalbum.album.CustomAlbum" />
+        <activity android:name=".deamo.yb_crustomalbum.album.CustomAlbumImageSee" />
+        <activity
+            android:name=".deamo.yb_crustomalbum.album.CustomAlbumEditPhotoActivity"
+           >
+        </activity>
+        <activity
+            android:name=".deamo.skin.SkinMainActivity"
+           >
         </activity>
     </application>
 

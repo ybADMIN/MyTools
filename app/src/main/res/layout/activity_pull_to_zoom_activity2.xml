@@ -2,13 +2,13 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:context="yb.com.exchangeviewlocation.deamo.PullToZoomActivity">
+                tools:context="yb.com.exchangeviewlocation.deamo.pullview.PullToZoomActivity">
 
-    <yb.com.exchangeviewlocation.deamo.ui.PullToZoomListView2
+    <yb.com.exchangeviewlocation.deamo.pullview.PullToZoomListView2
         android:id="@+id/listview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
 
-    </yb.com.exchangeviewlocation.deamo.ui.PullToZoomListView2>
+    </yb.com.exchangeviewlocation.deamo.pullview.PullToZoomListView2>
 
 </RelativeLayout>

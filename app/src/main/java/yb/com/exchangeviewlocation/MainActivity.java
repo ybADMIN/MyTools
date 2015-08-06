@@ -13,10 +13,12 @@ import android.view.View;
 import java.util.ArrayList;
 import java.util.List;
 
-import yb.com.exchangeviewlocation.deamo.PullToZoomActivity;
-import yb.com.exchangeviewlocation.deamo.PullToZoomActivity2;
+import yb.com.exchangeviewlocation.deamo.Toolbar.About_US_framentActivity;
 import yb.com.exchangeviewlocation.deamo.adapter.MainAdapter;
 import yb.com.exchangeviewlocation.deamo.adapter.bean.ViewModel;
+import yb.com.exchangeviewlocation.deamo.pullview.PullToZoomActivity;
+import yb.com.exchangeviewlocation.deamo.pullview.PullToZoomActivity2;
+import yb.com.exchangeviewlocation.deamo.skin.SkinMainActivity;
 
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener,MainAdapter.RecyclerOnItemClickListener{
@@ -37,7 +39,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     }
 
     private List<ViewModel> createMockList() {
-        String[] name = new String[]{"ListView头部下拉放大","下拉显示底部图层","ScoolView头部下拉放大","","","","",""};
+        String[] name = new String[]{"ListView头部下拉放大","下拉显示底部图层","自定义底部Bar","自定义相册","皮肤更换1","皮肤更换2","",""};
 
 
         List<ViewModel> list = new ArrayList();
@@ -87,6 +89,20 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             case 1:
                 isDo=true;
                 intent.setClass(this, PullToZoomActivity2.class);
+                break;
+            case 2:
+                isDo=true;
+                intent.setClass(this, About_US_framentActivity.class);
+                break;
+            case 3:
+                isDo=true;
+                intent.setClass(this, yb.com.exchangeviewlocation.deamo.yb_crustomalbum.MainActivity.class);
+                break;
+            case 4:
+                isDo=true;
+                intent.setClass(this, SkinMainActivity.class);
+                break;
+            case 5:
                 break;
         }
         if (isDo)
