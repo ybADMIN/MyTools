@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tb="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.app.wjhofhyd.view.aboutUS.About_US_framentActivity"
+                android:orientation="vertical"
+    >
+<android.support.v4.view.ViewPager
+    android:id="@+id/about_us_vp"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+<LinearLayout
+    android:background="@drawable/toolbar_bg"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <yb.com.exchangeviewlocation.deamo.Toolbar.WJHToolbar
+        tb:tb_choose_color="#FF0000"
+        tb:tb_modo="onaly_circle_bg"
+        android:onClick="toobarClick"
+        android:id="@+id/about_us_tools_company_profile"
+        tb:tb_icon="@mipmap/about_company_profile"
+        tb:tb_text="公司简介"
+        android:padding="5dp"
+        tb:tb_textsize="12sp"
+        tb:tb_circle_bg="#88F4FCFF"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+    <yb.com.exchangeviewlocation.deamo.Toolbar.WJHToolbar
+        tb:tb_choose_color="#FF0000"
+        tb:tb_modo="onaly_circle_bg"
+        android:onClick="toobarClick"
+        tb:tb_circle_bg="#88F4FCFF"
+        android:id="@+id/about_us_tools_engineering_case"
+        tb:tb_icon="@mipmap/about_engineering_case"
+        tb:tb_text="工程案列"
+        android:padding="5dp"
+        tb:tb_textsize="12sp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+    <yb.com.exchangeviewlocation.deamo.Toolbar.WJHToolbar
+        tb:tb_modo="onaly_circle_bg"
+        android:onClick="toobarClick"
+        tb:tb_choose_color="#FF0000"
+        tb:tb_circle_bg="#88F4FCFF"
+        android:id="@+id/about_us_tools_engineers"
+        tb:tb_icon="@mipmap/about_engineers"
+        tb:tb_text="工程师"
+        android:padding="5dp"
+        tb:tb_textsize="12sp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+    <yb.com.exchangeviewlocation.deamo.Toolbar.WJHToolbar
+
+        tb:tb_modo="onaly_circle_bg"
+        android:onClick="toobarClick"
+        tb:tb_circle_bg="#88F4FCFF"
+        android:id="@+id/about_us_tools_talent_recruitment"
+        tb:tb_icon="@mipmap/about_talent_recruitment"
+        tb:tb_text="招贤纳才"
+        android:padding="5dp"
+        tb:tb_textsize="12sp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+
+
+</LinearLayout>

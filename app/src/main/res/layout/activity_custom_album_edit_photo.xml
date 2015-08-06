@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_input"
+        android:background="@color/u_common_blue"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/web_shop_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:scaleType="centerInside"
+                android:src="@mipmap/bl00b" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:text="返回"
+                android:textColor="@color/common_white"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bartershare_publish_del_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:drawableLeft="@mipmap/bs_info_del"
+            android:text="@string/img_edit_del"
+            android:gravity="center"
+            android:textColor="@color/common_white"
+            android:visibility="gone"
+            android:background="@android:color/transparent"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:textColor="@color/common_white"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/img_edit_title"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <CheckBox
+            android:text="选择   "
+            android:paddingLeft="5dp"
+            style="@style/common_checkBox"
+            android:textColor="@color/common_white"
+            android:id="@+id/top_checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pic_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/RelativeLayout1"
+        android:background="#000000"
+         />
+
+</RelativeLayout>

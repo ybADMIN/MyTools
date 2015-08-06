@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:skin="http://schemas.android.com/android/skin"
+                xmlns:skin_night="http://schemas.android.com/android/skin/night"
+                xmlns:skin_default="http://schemas.android.com/android/skin/default"
+                xmlns:skin_external="http://schemas.android.com/android/skin/external"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:orientation="vertical"
+                tools:context=".MainActivity"
+                tools:ignore="MissingPrefix"
+                skin:forceSkin="external"
+                android:background="@mipmap/a2"
+                skin_external:background="@mipmap/a1"
+                skin_night:background="@mipmap/a1"
+                skin_default:background="@mipmap/a1"
+
+    >
+
+    <TextView
+        skin:skip="false"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="该方式是通过开源项目SkinService完成的"
+        skin_external:background="@drawable/ai"
+        />
+
+    <TextView
+        skin:skip="false"
+        android:onClick="tvclick"
+        skin_external:background="@drawable/ai"
+        skin_night:background="#FF000000"
+        skin_default:background="#FF938293"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="项目中skin_zip是皮肤资源、皮肤资源打包成apk放入指定目录就可以使用皮肤资源了"
+        />
+    <ImageView
+        android:src="@mipmap/a1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yb autoer"
+            skin:forceSkin="default"
+            skin_external:background="@color/red"
+            skin_night:background="#FF000000"
+            skin_default:background="#FF938293"
+            skin_default:textColor="#FF900ddf"
+        />
+
+
+</LinearLayout>
