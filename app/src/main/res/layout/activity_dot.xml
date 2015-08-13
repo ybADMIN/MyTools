@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="yb.com.exchangeviewlocation.deamo.readDot.DotActivity">
+
+    <yb.com.exchangeviewlocation.deamo.readDot.NewView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:newview_text="New"
+        app:newview_textsize="10sp"
+        app:newview_bg="#ff0000"
+        app:newview_textcolor="@color/common_gray_c3"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/textView"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="salksjdflkajdsfkalsdjfla;kjdf"
+        android:id="@+id/textView"/>
+
+
+</RelativeLayout>
