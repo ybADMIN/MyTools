@@ -17,4 +17,11 @@
             <enum name="both" value="3"></enum>
         </attr>
     </declare-styleable>
+    <!-- Toolbar -->
+    <declare-styleable name="NewView">
+        <attr name="newview_bg" format="color" />
+        <attr name="newview_text" format="string" />
+        <attr name="newview_textsize" format="dimension" />
+        <attr name="newview_textcolor" format="color" />
+    </declare-styleable>
 </resources>

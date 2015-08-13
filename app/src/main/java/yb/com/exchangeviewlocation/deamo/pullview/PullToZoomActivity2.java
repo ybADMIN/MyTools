@@ -5,7 +5,6 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 
 import yb.com.exchangeviewlocation.R;
 
@@ -22,8 +21,6 @@ public class PullToZoomActivity2 extends ActionBarActivity {
         adapterData = new String[] { "Activity","Service","Content Provider","Intent","BroadcastReceiver","ADT","Sqlite3","HttpClient","DDMS","Android Studio","Fragment","Loader","Eclipse","Gradle","XML","Java" };
         listView.setAdapter(new ArrayAdapter<String>(PullToZoomActivity2.this,
                 android.R.layout.simple_list_item_1, adapterData));
-        listView.getHeaderView().setImageResource(R.mipmap.a1);
-        listView.getHeaderView().setScaleType(ImageView.ScaleType.CENTER_CROP);
     }
 
     @Override

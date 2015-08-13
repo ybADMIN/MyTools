@@ -16,4 +16,5 @@
     <string name="back">返回</string>
     <string name="title_activity_see_image">seeImage</string>
     <string name="title_activity_custom_album_edit_photo">CustomAlbumEditPhotoActivity</string>
+    <string name="title_activity_dot">DotActivity</string>
 </resources>

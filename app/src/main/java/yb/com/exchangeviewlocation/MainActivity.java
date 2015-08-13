@@ -18,7 +18,9 @@ import yb.com.exchangeviewlocation.deamo.adapter.MainAdapter;
 import yb.com.exchangeviewlocation.deamo.adapter.bean.ViewModel;
 import yb.com.exchangeviewlocation.deamo.pullview.PullToZoomActivity;
 import yb.com.exchangeviewlocation.deamo.pullview.PullToZoomActivity2;
+import yb.com.exchangeviewlocation.deamo.readDot.DotActivity;
 import yb.com.exchangeviewlocation.deamo.skin.SkinMainActivity;
+import yb.com.exchangeviewlocation.utils.BadgeUtil;
 
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener,MainAdapter.RecyclerOnItemClickListener{
@@ -33,13 +35,13 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         MainAdapter adapter = new MainAdapter(createMockList(), R.layout.main_itme_cardview);
         list.setAdapter(adapter);
         adapter.setListener(this);
-
+        BadgeUtil.setBadgeCount(this,50);
         list.setLayoutManager(new LinearLayoutManager(this));
         list.setItemAnimator(new DefaultItemAnimator());
     }
 
     private List<ViewModel> createMockList() {
-        String[] name = new String[]{"ListView头部下拉放大","下拉显示底部图层","自定义底部Bar","自定义相册","皮肤更换1","皮肤更换2","",""};
+        String[] name = new String[]{"ListView头部下拉放大","下拉显示底部图层","自定义底部Bar","自定义相册","皮肤更换1","小红点","",""};
 
 
         List<ViewModel> list = new ArrayList();
@@ -103,6 +105,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 intent.setClass(this, SkinMainActivity.class);
                 break;
             case 5:
+                isDo=true;
+                intent.setClass(this, DotActivity.class);
                 break;
         }
         if (isDo)
